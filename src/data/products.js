@@ -23,5 +23,13 @@ export const products = [
     category: "Watch",
     image: "https://images.unsplash.com/photo-1546868871-7041f2a55e12",
     featured: false
+  },
+   {
+    id: 5,
+    title: "Apple Watch",
+    price: 180000,
+    category: "Watch",
+    image: "https://images.unsplash.com/photo-1546868871-7041f2a55e12",
+    featured: false
   }
 ];
