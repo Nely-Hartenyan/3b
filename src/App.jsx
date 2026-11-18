@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import ProductList from "./components/ProductList";
 import Footer from "./components/Footer";
+import ContactForm from "./components/ContacForm"
 
 function App() {
   const [cart, setCart] = useState([]); 
@@ -26,6 +27,8 @@ function App() {
         <ProductList
           onAddToCart={addToCart}
         />
+        
+        <ContactForm/>
       </main>
 
       <Footer />
