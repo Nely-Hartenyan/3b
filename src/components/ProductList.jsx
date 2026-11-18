@@ -28,7 +28,7 @@ function ProductList({ onAddToCart }) {
     return (
       <section className="px-6 py-16 text-center">
         <p className="text-lg text-gray-600">
-          Loading products...
+          Loading products......
         </p>
       </section>
     );
